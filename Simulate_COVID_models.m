@@ -3,6 +3,9 @@
 % interventions with the cooperative infection model
 %--------------------------------------------------------------------------
 
+% Add the folder 'Functions' to the MATLAB search path
+addpath('Functions');
+
 %% Reorganize figures for comparison of simulation and actual data
 % Load data
 Countries_left = {'France','Spain','Italy','Germany','UK','USA','Turkey'};
