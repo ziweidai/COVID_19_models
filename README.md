@@ -1,8 +1,8 @@
 # COVID_19_models
 # Introduction
-This project includes mathematical models for the COVID-19 (SARS-CoV-2) pandemic in nine countries, including USA, Italy, Spain, Germany, France, UK and Turkey. These models are derived from the susceptible, infected, recovered and deceased (SIRD) model in computational epidemiology.
+This project includes mathematical models for the COVID-19 (SARS-CoV-2) pandemic in nine countries, including USA, Italy, Spain, Germany, France, UK and Turkey. These models are derived from the susceptible, infected, recovered and deceased (SIRD) model in computational epidemiology. Three variation of the SIRD model including reduced SIRD model, reduced SIRD model with virus pool, and reduced SIRD model with virus pool and cooperative infection are considered.
 
-![Models](Models.png "Diagrams illustrating the models used in this study")
+<img src="Models.png" alt="drawing" width="500"/>
 
 The scripts were developed and tested on MATLAB R2019a.
 
