@@ -26,6 +26,9 @@
 % ActiveCases.csv - time-course data for active case numbers in the nine countries
 %--------------------------------------------------------------------------------------
 
+% Add the folder 'Functions' to the MATLAB search path
+addpath('Functions');
+
 % Define parameters and read transmission dynamics data
 TotalPopulations = [329065000 60550000 46737000 83517000 65130000 ...
     82914000 67530000 83430000 8591000]; %Population (2019 UN data) in the nine countries
