@@ -1,5 +1,5 @@
 %--------------------------------------------------------------------------
-% Summary the results of model fitting and Simulate the effects of
+% Summarize the results of model fitting and Simulate the effects of
 % interventions with the cooperative infection model
 %--------------------------------------------------------------------------
 
