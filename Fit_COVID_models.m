@@ -112,6 +112,21 @@ S=y(1);V=y(4); %variables
 J=[-k*V 0 0 -k*S;k*V -lambda 0 k*S;0 lambda 0 0;0 c 0 -d];
 end
 
+function [time_left,isterminal,direction] = Integration_Too_Slow(t,y,params,tstart)
+% Event that happens if the integration has taken too much time. If this
+% happens (integration takes longer than 1s), let the solver end prematurely
+tc=toc(tstart);
+time_left = max(1-tc,0);
+isterminal=1;
+direction=0;
+if tc>=1
+    t
+    y
+    params
+    pause();
+end
+end
+
 function [x_opt,f_opt,x_kept,f_kept]=fitSIRDModel(dydtModelFunc,JacobianModelFunc,...
     model_name,with_virus,data_cases_active,data_cases_total,...
     total_population,params_lb,params_ub,days_prediction,start_date)
